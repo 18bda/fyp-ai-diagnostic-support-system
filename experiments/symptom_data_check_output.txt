@@ -1,0 +1,35 @@
+=== Symptom Dataset Quick Check ===
+Shape: (4920, 134)
+Columns (first 10): ['itching', 'skin_rash', 'nodal_skin_eruptions', 'continuous_sneezing', 'shivering', 'chills', 'joint_pain', 'stomach_pain', 'acidity', 'ulcers_on_tongue']
+Target column present: True
+
+Missing values per column (top 10):
+Unnamed: 133                4920
+spinning_movements             0
+altered_sensorium              0
+muscle_pain                    0
+irritability                   0
+depression                     0
+toxic_look_(typhos)            0
+internal_itching               0
+passage_of_gases               0
+continuous_feel_of_urine       0
+dtype: int64
+
+Class distribution (top 10):
+prognosis
+Fungal infection                120
+Hepatitis C                     120
+Hepatitis E                     120
+Alcoholic hepatitis             120
+Tuberculosis                    120
+Common Cold                     120
+Pneumonia                       120
+Dimorphic hemmorhoids(piles)    120
+Heart attack                    120
+Varicose veins                  120
+Name: count, dtype: int64
+
+Unique values in feature columns (sample): [0.0, 1.0]
+
+✅ Dataset loads correctly and is suitable for ML (tabular multi-class classification).
