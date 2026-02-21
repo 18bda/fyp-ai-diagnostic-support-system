@@ -1,0 +1,10 @@
+Model,Mean Accuracy,Std Accuracy
+Logistic Regression,1.0,0.0
+KNN,1.0,0.0
+Decision Tree,1.0,0.0
+Random Forest,1.0,0.0
+Extra Trees,1.0,0.0
+Gradient Boosting,1.0,0.0
+MLP (Neural Net),1.0,0.0
+SVM,0.999390243902439,0.0012195121951219523
+AdaBoost,0.0766260162601626,0.017784262483111674
