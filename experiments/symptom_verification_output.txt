@@ -1,0 +1,13 @@
+=== Verification Pack: Symptom Baseline ===
+Dataset shape: (4920, 133) | X: (4920, 132) | Classes: 41
+
+[Check 1] Duplicate feature rows (same symptom vector): 4920 / 4920
+[Check 2] Train/Test overlap of identical feature rows: 259
+
+[Check 3] Hold-out accuracy (stratified split): 1.0000
+[Check 4] 5-fold CV accuracy: mean=1.0000, std=0.0000
+Per-fold: [1. 1. 1. 1. 1.]
+
+[Check 5] Label-shuffled accuracy: 0.0081 (chance ≈ 0.0244)
+
+✅ If Check 2 overlap is near 0 and Check 5 is near chance, leakage is unlikely.
